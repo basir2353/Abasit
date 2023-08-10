@@ -16,16 +16,15 @@ const ProfileDetails = () => {
           accessible, visually appealing, and responsive. Even though I have been creating
           <br />web applications for over 2 years, I still love it as if it was something new.
           <br />
-          Faisalabad, Pakistan
           <div className="location">
             <FontAwesomeIcon icon={faMapMarkerAlt} /> Faisalabad, Pakistan
           </div>
           <span className="available-text">Available for new projects</span>
           {/* Icons */}
           <div className="icons">
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={fabGithub} /></a>
-            <a href="https://www.figma.com" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={fabFigma} /></a>
-            <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={fabTwitter} /></a>
+            <a href="https://github.com/basir2353" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={fabGithub} /></a>
+            <a href="https://www.figma.com/files/user/1248942919712376506?fuid=1248942919712376506" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={fabFigma} /></a>
+            <a href="https://twitter.com/mabdulbasi1096" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={fabTwitter} /></a>
           </div>
         </div>
         <div className="profile-image">
