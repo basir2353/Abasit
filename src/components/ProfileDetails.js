@@ -14,7 +14,7 @@ const ProfileDetails = () => {
           I'm a full stack developer (React.js & Node.js) with a focus on creating 
           <br/>(and occasionally designing) exceptional digital experiences that are fast, <br />
           accessible, visually appealing, and responsive. Even though I have been creating
-          <br />web applications for over 2 years, I still love it as if it was something new.
+          <br />web applications for over 5 years, I still love it as if it was something new.
           <br />
           <div className="location">
             <FontAwesomeIcon icon={faMapMarkerAlt} /> Faisalabad, Pakistan

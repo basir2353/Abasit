@@ -33,7 +33,7 @@ Worked as a full stack developer (React / Laravel).
 </p>
         </div>
         <div className="date">
-          <p>April 2022 - july 2012
+          <p>April 2022 - july 2022
 
 </p>
         </div>
