@@ -1,0 +1,144 @@
+/* Navbar.css */
+
+/* Add a black background to the entire navbar */
+.navbar {
+  background-color: black transparent;
+}
+
+
+/* Move the "Home" feature to the right and add margin */
+.navbar-nav {
+  margin-right: 10px; /* Adjust the margin as needed */
+  margin-left: auto; /* Move items to the right */
+}
+
+/* Toggle the light and dark modes */
+body.light-mode {
+  /* Define your light mode styles here */
+  background-color: white;
+  color: black;
+}
+
+body.dark-mode {
+  /* Define your dark mode styles here */
+  background-color: black;
+  color: white;
+}
+
+/* Style the button with black background and white text */
+.btn-black {
+  background-color: black;
+  color: white;
+  margin: 5px; /* Adjust the margin as needed */
+  padding: 10px; /* Adjust the padding as needed */
+}
+
+/* Add a link style for navigation */
+.nav-link {
+  color: white; /* Text color for links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.nav-link.features {
+  margin-right: 20px;
+}
+
+.navbar-brand {
+  color: aliceblue;
+}
+
+.nav-link.features {
+  margin-right: 20px;
+}
+
+/* Style the disabled link */
+.nav-link.disabled {
+  color: gray; /* Change the color for disabled links */
+}
+
+/* Adjust active link style */
+.nav-link.active {
+  font-weight: bold; /* Make active link bold */
+}
+
+/* Add hover effect to links */
+.nav-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.custom-navbar {
+  transition: background-color 0.3s ease-in-out;
+  max-width: 100%; /* Add this to make sure the navbar doesn't exceed the screen width */
+  margin: 0 auto; /* Center the navbar horizontally */
+}
+
+.custom-logo {
+  /* Add your custom logo styles here */
+}
+
+.custom-logo-text {
+  /* Add your custom logo text styles here */
+}
+
+/* Example toggle button styles */
+.custom-toggle-button {
+  margin-left: 49rem;
+}
+
+/* Navbar.css */
+.custom-navbar {
+  transition: background-color 0.3s ease-in-out;
+}
+
+.custom-toggle-button {
+  margin-left: 1rem;
+  background-color: azure;
+}
+
+/* Light/Dark toggle button styles */
+.checkbox {
+  display: none;
+}
+
+.checkbox-label {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 25px;
+  background-color: #d1d1d1;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.checkbox-label i {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  font-size: 16px;
+  color: #f4f3f4;
+  transition: color 0.3s ease-in-out;
+}
+
+.checkbox:checked + .checkbox-label {
+  background-color: #5a5a5a;
+}
+
+.checkbox:checked + .checkbox-label i:first-child {
+  color: #f1c40f;
+}
+
+.checkbox:checked + .checkbox-label i:last-child {
+  color: #f4f3f4;
+  left: 21px;
+}
+
+.text-light {
+  --bs-text-opacity: 1;
+  /* color: rgba(var(--bs-light-rgb),var(--bs-text-opacity))!important; */
+}
+@media (max-width: 768px) {
+  .custom-navbar {
+    padding: 10px 20px; /* Example padding for smaller screens */
+  }
+}

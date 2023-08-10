@@ -1,0 +1,67 @@
+.about-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .abothed {
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 2px;
+    /* overflow: hidden; */
+    margin-bottom: 36rem;
+}
+  .image-container {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .about-text {
+    flex: 2;
+    padding: 20px;
+  }
+  .image {
+    width: 22rem;
+    height: 22rem;
+    border-left: 33px solid #ccc;
+    border-bottom: 15px solid #ccc;
+
+}
+  /* ... (other styles) */
+
+/* Responsive changes for smaller screens */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .image-container {
+    padding: 0; /* Remove padding for the image container */
+    margin-bottom: 10px; /* Add margin below the image container */
+  }
+
+  .image {
+    width: 100%; /* Make the image width 100% for responsiveness */
+    max-width: 200px; /* Set a maximum width for the image */
+    height: auto; /* Maintain aspect ratio */
+    border-left: none; /* Remove border */
+    border-bottom: none; /* Remove border */
+  }
+
+  .about-content {
+    width: 100%; /* Make the content width 100% */
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .abothed {
+    margin-bottom: 10px; /* Adjust margin for the heading */
+  }
+
+  .about-text {
+    width: 100%; /* Remove padding for the text content */
+    text-align: center; /* Center-align text */
+  }
+}

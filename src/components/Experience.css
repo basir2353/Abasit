@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 700px; /* Increased container width */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .exp{
+align-items: center;
+  }
+  .exp1{
+align-items: center;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .logo-and-date {
+    display: flex;
+    justify-content: space-between; /* Arrange logo and date in a row with space between */
+    align-items: center;
+    width: 100%; /* Full width within the card */
+    margin-bottom: 60px;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .description {
+    margin-bottom: 10px;
+  }
+  
+  .date {
+    align-self: flex-end;
+  }
+  /* ... (other styles) */
+
+/* Responsive changes for smaller screens */
+@media (max-width: 768px) {
+  .container {
+    width: 100%; /* Set container width to 100% for responsiveness */
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .card {
+    width: 100%; /* Set card width to 100% for responsiveness */
+    margin-bottom: 10px; /* Adjust margin for smaller screens */
+  }
+
+  .logo-and-date {
+    flex-direction: column; /* Stack logo and date vertically */
+    align-items: center; /* Center-align content */
+    margin-bottom: 20px; /* Adjust margin for smaller screens */
+  }
+
+  .logo img {
+    width: 40px; /* Reduce logo image size */
+    height: 40px;
+  }
+}

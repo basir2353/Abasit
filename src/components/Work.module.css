@@ -1,0 +1,52 @@
+/* Work.module.css */
+.workCardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 auto; /* Center the container horizontally */
+  max-width: 1200px; /* Set a maximum width for the container */
+}
+
+.workCard {
+  width: 500px; /* Set the width of the card */
+  border: 1px solid #ccc;
+  margin: 10px;
+  display: contents;
+  flex-direction: column; /* Stack content vertically */
+  box-sizing: border-box; /* Include borders and padding in width calculations */
+  align-items: center;
+}
+
+.workCardImage {
+  background-color: #ccc;
+  margin: 10px;
+  padding: 10px;
+}
+
+.workCardImage img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.workCardContent {
+  padding: 20px;
+}
+
+.technologyList {
+  list-style: none;
+  margin: 10px 0 0; /* Add some margin at the top of the list */
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.technologyItem {
+  background-color: #ccc;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  margin: 4px;
+  padding: 4px 8px;
+  font-size: 12px;
+}

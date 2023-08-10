@@ -1,24 +1,33 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import NavBar from './components/NavBar';
+import { ThemeProvider, useTheme } from './Context/themecontext';
+import ProfileDetails from './components/ProfileDetails';
+import AboutSection from './components/AboutUs';
+import Skills from './components/Skills';
+import Experience from './components/expernines';
+import Card from './components/carad';
+import ThreeCardLayout from './components/threecardlayout';
+import ContactSection from './components/ContactUs';
+import Footer from './components/Footer';
 
 function App() {
+  const { isDarkMode } = useTheme();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider>
+      <div className={`App ${isDarkMode ? 'dark' : ''}`}>
+        <NavBar />
+        <ProfileDetails id="about" />
+        <AboutSection />
+        <Skills id="work" />
+        <Experience />
+        <Card />
+        <ThreeCardLayout id="testimonials" />
+        <ContactSection id="contact" />
+        <Footer />
+      </div>
+    </ThemeProvider>
   );
 }
 

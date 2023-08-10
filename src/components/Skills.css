@@ -1,0 +1,99 @@
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+}
+
+.skill-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.skill-icon {
+  font-size: 5rem;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.skill-link {
+  text-decoration: none;
+}
+
+/* Add classes for individual skill colors */
+.skill-js {
+  color: #f0db4f; /* JavaScript Yellow */
+}
+.skill-ts {
+  color: #3178c6; /* TypeScript Blue */
+}
+.skill-react {
+  color: #61dafb; /* React Blue */
+}
+.skill-next {
+  color: #000; /* Next.js Black */
+}
+.skill-node {
+  color: #8cc84b; /* Node.js Green */
+}
+.skill-socket {
+  color: #000; /* Socket.io Black */
+}
+.skill-sass {
+  color: #ff69b4; /* Sass Pink */
+}
+.skill-tailwind {
+  color: #38b2ac; /* Tailwindcss Teal */
+}
+.skill-figma {
+  color: #f24e1e; /* Figma Red */
+}
+.skill-cypress {
+  color: #000; /* Cypress Black */
+}
+.skill-git {
+  color: #f05032; /* Git Orange */
+}
+.skill-nest {
+  color: #ffca3a; /* Nest.js Yellow */
+}
+.skill-storybook {
+  color: #ff4785; /* Storybook Pink */
+}
+
+/* Hover effect for skill icon */
+.skill-icon:hover,
+.skill-button:hover {
+  transform: scale(1.1);
+}
+
+/* Responsive changes for smaller screens */
+@media (max-width: 768px) {
+  .skills-container {
+    padding: 10px;
+  }
+
+  .skill-button {
+    width: 100px;
+    height: 100px;
+  }
+
+  .skill-icon {
+    font-size: 3rem;
+  }
+}

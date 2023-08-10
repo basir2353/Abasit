@@ -1,0 +1,109 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center content vertically */
+  min-height: 100vh; /* Set minimum height to fill the viewport */
+  padding: 20px;
+  box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+/* Rest of your existing styles */
+
+
+.custom-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgray;
+  border-radius: 15px;
+  margin: 20px 0;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.custom-image-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: gray;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.custom-image-wrap img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 15px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.custom-image-wrap:hover img {
+  transform: scale(1.1);
+}
+
+.custom-content {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+
+.custom-technology-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.custom-tag {
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.custom-tag1 {
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.custom-link-icon {
+  display: inline-block;
+  background-color: #f2f2f2;
+  border-radius: 40%;
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+}
+
+.custom-link-icon:hover {
+  background-color: #ccc;
+}
+@media screen and (min-width: 768px){
+.app-container {
+    align-items: flex-start;
+    margin-left: 25rem;
+}
+  
+  .custom-card {
+    flex-direction: row;
+    width: 80%;
+    max-width: 900px;
+    margin: 20px 0;
+  }
+  
+  .custom-image-wrap {
+    width: 30%;
+    margin-right: 10px;
+  }
+  
+  .custom-content {
+    width: 70%;
+    text-align: left;
+  }
+}
