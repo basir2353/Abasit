@@ -78,7 +78,7 @@ const NavBar = () => {
               )}
         </Button>
         |
-        <Button variant="outline-light" className={`ml-3 custom-download-button ${textColorClass}`} href='https://drive.google.com/file/d/1f3TjNKLumC1w60SmhAGZcwO7xRwnRqs8/view?usp=sharing'>
+        <Button variant="outline-light" className={`ml-3 custom-download-button ${textColorClass}`} href='https://drive.google.com/file/d/10Yey7xa_4RcPhoWSrZFwYEwl_O7zvuRD/view?usp=sharing'>
           Download CV
         </Button>
       </Navbar.Collapse>
