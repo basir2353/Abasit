@@ -18,7 +18,7 @@ const Experience = () => {
           <p>Worked with a variety of technologies, including React, Next.js, Typescript, Express.js, PostgreSQL, Tailwindcss, Mui, Firebase, Storybook, Cypress, and others.</p>
         </div>
         <div className="date">
-          <p>Nov 2021 - Present</p>
+          <p>April 2023 - Present</p>
         </div>
         
       </div>
@@ -33,7 +33,7 @@ Worked as a full stack developer (React / Laravel).
 </p>
         </div>
         <div className="date">
-          <p>Dec 2015 - May 2017
+          <p>April 2022 - july 2012
 
 </p>
         </div>
@@ -52,7 +52,7 @@ Worked on enterprise-level projects for a variety of clients.
 Handled sprint planning & task distribution</p>
         </div>
         <div className="date">
-          <p>Jul 2017 - Oct 2021</p>
+          <p>Jul 2022 - March 2023</p>
         </div>
         
       </div>
