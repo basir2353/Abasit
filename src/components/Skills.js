@@ -37,6 +37,7 @@ const skillsData = [
 const Skills = () => {
   return (
     <div className="skills-container">
+      <div className='exp2'><h5>Skills</h5></div>
       <IconContext.Provider value={{ size: '5rem' }}>
         {skillsData.map(skill => (
           <div key={skill.name} className="skill-item">

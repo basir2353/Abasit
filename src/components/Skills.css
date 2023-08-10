@@ -30,6 +30,15 @@
   cursor: pointer;
   transition: transform 0.3s ease-in-out;
 }
+.exp2{
+  align-items: center;
+  background-color: #f2f2f2;
+      border-radius: 15px;
+      padding: 5px 10px;
+      position: absolute;
+      margin: 2px;
+      margin-bottom: 28rem;
+    }
 
 .skill-link {
   text-decoration: none;
@@ -87,6 +96,15 @@
   .skills-container {
     padding: 10px;
   }
+  .exp2 {
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    padding: 5px 10px;
+    position: absolute;
+    margin: 2px;
+    margin-bottom: 50rem;
+}
 
   .skill-button {
     width: 100px;

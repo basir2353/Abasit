@@ -4,7 +4,7 @@ import './Experience.css'; // Import your CSS file
 const Experience = () => {
   return (
     <div className="container">
-       <div className='exp1'> <h2>Experience</h2></div>
+       <div className='exp1'> <h5>Experience</h5></div>
       <div className='exp'>
         <h4>Here is a quick summary of my most recent experiences:</h4>
       </div>

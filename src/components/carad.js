@@ -5,7 +5,7 @@ const Card = () => {
   return (
     <div className='app-container'>
       <span className='custom-tag1'>Work</span>
-      <p>
+      <p className='cla123'>
 
 Some of the noteworthy projects I have built:</p>
     <div className="custom-card">

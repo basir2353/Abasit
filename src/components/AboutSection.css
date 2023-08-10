@@ -11,27 +11,43 @@
     margin: 2px;
     /* overflow: hidden; */
     margin-bottom: 36rem;
+    
 }
-  .image-container {
-    flex: 1;
+p {
+  /* margin-top: 0; */
+  /* margin-top: 0rem; */
+  text-size-adjust: 94px;
+  padding-right: 9rem;
+}
+ .image-container {
+    flex: 1 1;
+    /* margin-bottom: 126px; */
     padding: 20px;
-  }
+}
   
   .about-text {
     flex: 2;
     padding: 20px;
   }
   .image {
-    width: 22rem;
-    height: 22rem;
+    width: 20rem;
+    height: 30rem;
     border-left: 33px solid #ccc;
     border-bottom: 15px solid #ccc;
-
+    border-right: 15px solid #ccc;
+    margin-left: 135px;
 }
   /* ... (other styles) */
 
 /* Responsive changes for smaller screens */
 @media (max-width: 768px) {
+  
+p {
+  /* margin-top: 0; */
+  /* margin-top: 0rem; */
+  text-size-adjust: 94px;
+  padding-right: 0rem;
+}
   .about-container {
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center items horizontally */
@@ -43,13 +59,16 @@
     margin-bottom: 10px; /* Add margin below the image container */
   }
 
-  .image {
-    width: 100%; /* Make the image width 100% for responsiveness */
-    max-width: 200px; /* Set a maximum width for the image */
-    height: auto; /* Maintain aspect ratio */
-    border-left: none; /* Remove border */
-    border-bottom: none; /* Remove border */
-  }
+ .image {
+    width: 100%;
+    max-width: 226px;
+    height: auto;
+    /* border-left: none; */
+    /* border-bottom: none; */
+    justify-content: center;
+    align-items: center;
+    margin-right: 22rem;
+}
 
   .about-content {
     width: 100%; /* Make the content width 100% */

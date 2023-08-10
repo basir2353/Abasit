@@ -1,4 +1,10 @@
 /* src/App.css */
+*{
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+  
+}
 .dark {
   /* Add styles for dark mode */
   background-color: #333;

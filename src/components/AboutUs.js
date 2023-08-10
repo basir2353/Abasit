@@ -5,7 +5,7 @@ const AboutSection = () => {
   return (
     <div className="about-container">
       <div className="image-container" >
-        <img className="image" src={`${process.env.PUBLIC_URL}/my.jpg`} alt="Profile Picture" />
+        <img className="image" src={`${process.env.PUBLIC_URL}/my (2).jpg`} alt="Profile Picture" />
       </div>
         <h4 className='abothed'>About Me</h4>
       <div className="about-text">
