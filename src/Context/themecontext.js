@@ -12,7 +12,7 @@ export const ThemeProvider = ({ children, defaultMode }) => {
   const theme = {
     isDarkMode,
     toggleDarkMode,
-    // ... other theme values ...
+    
   };
 
   return (

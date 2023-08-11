@@ -20,7 +20,6 @@ const ProfileDetails = () => {
             <FontAwesomeIcon icon={faMapMarkerAlt} /> Faisalabad, Pakistan
           </div>
           <span className="available-text">Available for new projects</span>
-          {/* Icons */}
           <div className="icons">
             <a href="https://github.com/basir2353" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={fabGithub} /></a>
             <a href="https://www.figma.com/files/user/1248942919712376506?fuid=1248942919712376506" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={fabFigma} /></a>

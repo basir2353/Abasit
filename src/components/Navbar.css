@@ -1,42 +1,32 @@
-/* Navbar.css */
-
-/* Add a black background to the entire navbar */
 .navbar {
   background-color: black transparent;
 }
 
-
-/* Move the "Home" feature to the right and add margin */
 .navbar-nav {
-  margin-right: 10px; /* Adjust the margin as needed */
-  margin-left: auto; /* Move items to the right */
+  margin-right: 10px;
+  margin-left: auto;
 }
 
-/* Toggle the light and dark modes */
 body.light-mode {
-  /* Define your light mode styles here */
   background-color: white;
   color: black;
 }
 
 body.dark-mode {
-  /* Define your dark mode styles here */
   background-color: black;
   color: white;
 }
 
-/* Style the button with black background and white text */
 .btn-black {
   background-color: black;
   color: white;
-  margin: 5px; /* Adjust the margin as needed */
-  padding: 10px; /* Adjust the padding as needed */
+  margin: 5px;
+  padding: 10px;
 }
 
-/* Add a link style for navigation */
 .nav-link {
-  color: white; /* Text color for links */
-  text-decoration: none; /* Remove underline from links */
+  color: white;
+  text-decoration: none;
 }
 
 .nav-link.features {
@@ -51,41 +41,28 @@ body.dark-mode {
   margin-right: 20px;
 }
 
-/* Style the disabled link */
 .nav-link.disabled {
-  color: gray; /* Change the color for disabled links */
+  color: gray;
 }
 
-/* Adjust active link style */
 .nav-link.active {
-  font-weight: bold; /* Make active link bold */
+  font-weight: bold;
 }
 
-/* Add hover effect to links */
 .nav-link:hover {
-  text-decoration: underline; /* Underline on hover */
+  text-decoration: underline;
 }
 
 .custom-navbar {
   transition: background-color 0.3s ease-in-out;
-  max-width: 100%; /* Add this to make sure the navbar doesn't exceed the screen width */
-  margin: 0 auto; /* Center the navbar horizontally */
+  max-width: 100%;
+  margin: 0 auto;
 }
 
-.custom-logo {
-  /* Add your custom logo styles here */
-}
-
-.custom-logo-text {
-  /* Add your custom logo text styles here */
-}
-
-/* Example toggle button styles */
 .custom-toggle-button {
   margin-left: 49rem;
 }
 
-/* Navbar.css */
 .custom-navbar {
   transition: background-color 0.3s ease-in-out;
 }
@@ -95,7 +72,6 @@ body.dark-mode {
   background-color: azure;
 }
 
-/* Light/Dark toggle button styles */
 .checkbox {
   display: none;
 }
@@ -135,10 +111,9 @@ body.dark-mode {
 
 .text-light {
   --bs-text-opacity: 1;
-  /* color: rgba(var(--bs-light-rgb),var(--bs-text-opacity))!important; */
 }
 @media (max-width: 768px) {
   .custom-navbar {
-    padding: 10px 20px; /* Example padding for smaller screens */
+    padding: 10px 20px;
   }
 }

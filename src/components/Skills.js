@@ -31,7 +31,6 @@ const skillsData = [
   { name: 'Storybook', icon: FaSquarespace, colorClass: 'skill-storybook', link: 'https://storybook.js.org/' },
   { name: 'Git', icon: FaGit, colorClass: 'skill-git', link: 'https://git-scm.com/' },
   { name: 'Nest.js', icon: FaBezierCurve, colorClass: 'skill-nest', link: 'https://nestjs.com/' },
-  // ... Add more skills as needed
 ];
 
 const Skills = () => {

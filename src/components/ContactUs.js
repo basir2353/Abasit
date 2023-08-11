@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { RiContactsFill, RiMailLine, RiPhoneLine } from 'react-icons/ri';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'; // Import icons for GitHub, LinkedIn, and Twitter
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'; 
 import './ContactSection.css';
 
 const ContactSection = () => {

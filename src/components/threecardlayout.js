@@ -1,5 +1,5 @@
 import React from 'react';
-import './ThreeCardLayout.css'; // Import the updated CSS file
+import './ThreeCardLayout.css';
 
 const ThreeCardLayout = () => {
   return (

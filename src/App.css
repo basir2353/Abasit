@@ -1,45 +1,26 @@
-/* src/App.css */
-*{
+* {
   margin: 0px;
   padding: 0px;
   align-items: center;
-  
 }
 .dark {
-  /* Add styles for dark mode */
   background-color: #333;
   color: white;
 }
 
-/* Add other dark mode styles as needed */
-
-/* src/YourOtherComponent.css */
-.custom-card {
-  /* Regular card styles for light mode */
-}
-
 .dark .custom-card {
-  /* Dark mode card styles */
   background-color: #222;
   color: white;
 }
 
-/* Add other dark mode styles for your components */
-/* App.css */
-
 .bg-dark {
-  background-color: #333; /* Replace with your desired dark mode background color */
+  background-color: #333;
 }
 
 .bg-light {
-  background-color: #f8f9fa; /* Replace with your desired light mode background color */
+  background-color: #f8f9fa;
 }
-/* Navbar.css */
-/* ... your existing CSS styles ... */
 .custom-navbar {
-  /* ... your existing styles ... */
   background-color: var(--background-color);
   color: var(--text-color);
 }
-
-/* ... repeat for other components ... */

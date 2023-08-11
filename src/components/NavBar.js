@@ -1,11 +1,11 @@
 import React from 'react';
 import { Navbar, Nav, Button } from 'react-bootstrap';
-import { useTheme } from '../Context/themecontext'; // Import the useTheme hook
-import './Navbar.css'; // Import your custom CSS file
+import { useTheme } from '../Context/themecontext'; 
+import './Navbar.css'; 
 import ProfileDetails from './ProfileDetails';
 import { Link as ScrollLink } from 'react-scroll';
 const NavBar = () => {
-  const { isDarkMode, toggleDarkMode } = useTheme(); // Use the useTheme hook
+  const { isDarkMode, toggleDarkMode } = useTheme(); 
 
   const backgroundColorClass = isDarkMode ? 'bg-dark' : 'bg-light';
   const textColorClass = isDarkMode ? 'text-light' : 'text-dark';
@@ -25,7 +25,6 @@ const NavBar = () => {
         <span className={`ml-2 custom-logo-text ${textColorClass}`}>AB</span>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav">
-        {/* Toggle button icon */}
         {isDarkMode ? (
           <img
             src={`${process.env.PUBLIC_URL}/close.png`}
@@ -44,7 +43,6 @@ const NavBar = () => {
       </Navbar.Toggle>
       <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="mr-auto">
-          {/* Use ScrollLink for smooth scrolling */}
           <ScrollLink to="about" smooth={true} duration={500}>
             <Nav.Link className={textColorClass}>About</Nav.Link>
           </ScrollLink>
@@ -60,7 +58,6 @@ const NavBar = () => {
         </Nav>
         
         <Button variant="outline-light" onClick={toggleDarkMode} className={`custom-toggle-button ${textColorClass}`}>
-          {/* Toggle button icon */}
           {isDarkMode ? (
             <img
             src={`${process.env.PUBLIC_URL}/brightness.png` }

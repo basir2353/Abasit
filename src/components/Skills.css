@@ -44,54 +44,51 @@
   text-decoration: none;
 }
 
-/* Add classes for individual skill colors */
 .skill-js {
-  color: #f0db4f; /* JavaScript Yellow */
+  color: #f0db4f; 
 }
 .skill-ts {
-  color: #3178c6; /* TypeScript Blue */
+  color: #3178c6; 
 }
 .skill-react {
-  color: #61dafb; /* React Blue */
+  color: #61dafb; 
 }
 .skill-next {
-  color: #000; /* Next.js Black */
+  color: #000; 
 }
 .skill-node {
-  color: #8cc84b; /* Node.js Green */
+  color: #8cc84b; 
 }
 .skill-socket {
-  color: #000; /* Socket.io Black */
+  color: #000;
 }
 .skill-sass {
-  color: #ff69b4; /* Sass Pink */
+  color: #ff69b4; 
 }
 .skill-tailwind {
-  color: #38b2ac; /* Tailwindcss Teal */
+  color: #38b2ac; 
 }
 .skill-figma {
-  color: #f24e1e; /* Figma Red */
+  color: #f24e1e; 
 }
 .skill-cypress {
-  color: #000; /* Cypress Black */
+  color: #000; 
 }
 .skill-git {
-  color: #f05032; /* Git Orange */
+  color: #f05032; 
 }
 .skill-nest {
-  color: #ffca3a; /* Nest.js Yellow */
+  color: #ffca3a; 
 }
 .skill-storybook {
-  color: #ff4785; /* Storybook Pink */
+  color: #ff4785; 
 }
 
-/* Hover effect for skill icon */
 .skill-icon:hover,
 .skill-button:hover {
   transform: scale(1.1);
 }
 
-/* Responsive changes for smaller screens */
 @media (max-width: 768px) {
   .skills-container {
     padding: 10px;
