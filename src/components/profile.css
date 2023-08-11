@@ -62,7 +62,13 @@
 .custom-profile-pic {
   width: 200px;
 }
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
+  .location {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 5rem;
+  }
   .profile-details {
     flex-direction: column;
     align-items: center;
@@ -74,7 +80,6 @@
     margin: 20px 0;
     width: 100%;
   }
-
   .profile-text {
     text-align: center;
     margin-right: 40px;
@@ -88,3 +93,4 @@
     margin: 20px auto;
   }
 }
+

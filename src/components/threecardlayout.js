@@ -7,7 +7,7 @@ const ThreeCardLayout = () => {
 
       <div className="testimonials-heading">
         <p className='data1'>Testimonials</p>
-        <p>Nice things people have said about me:</p>
+        <p className='data12'>Nice things people have said about me:</p>
       </div>
       <div className="my-three-card-container">
         <div className="my-card">

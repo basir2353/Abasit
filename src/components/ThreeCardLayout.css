@@ -1,20 +1,22 @@
-/* src/ThreeCardLayout.css */
-
 .my-three-card-container {
   display: flex;
-  flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+  flex-wrap: wrap; 
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  margin: 2rem auto; /* Adjust the margin for centering */
-  background-color: #f0f0f0;
-  padding: 20px; /* Add some padding */
-  box-sizing: border-box; /* Ensure padding is included in width calculation */
+  margin: 2rem auto; 
+  padding: 20px; 
+  box-sizing: border-box; 
 }
 
 .testimonials-heading {
   text-align: center;
-  margin-top: 5rem; /* Adjust margin for spacing */
+  margin-top: 5rem; 
+}
+.data12 {
+  position: absolute;
+  margin-left: 41rem;
+  margin-top: 3rem;
 }
 
 .data1 {
@@ -22,11 +24,12 @@
   border-radius: 15px;
   padding: 5px 10px;
   margin: 2px;
+  margin-left: 46rem;
+  position: absolute;
 }
 
 .my-card {
   width: 25rem;
-  /* background-color: #ccc; */
   border-radius: 20px;
   display: flex;
   flex-direction: column;

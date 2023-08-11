@@ -1,76 +1,70 @@
 .about-container {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    margin-bottom: 20px;
-  }
-  .abothed {
-    background-color: #f2f2f2;
-    border-radius: 15px;
-    padding: 5px 10px;
-    margin: 2px;
-    margin-bottom: 36rem;
-    
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 20px;
 }
+
+.abothed {
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  padding: 5px 10px;
+  margin: 2px;
+
+  margin-bottom: 42rem;
+}
+
 p {
-  text-size-adjust: 94px;
-  padding-right: 9rem;
+  padding-right: 0; /* Remove the right padding */
 }
- .image-container {
-    flex: 1 1;
-    padding: 20px;
+
+.image-container {
+  flex: 1 1;
+  padding: 20px;
 }
-  
-  .about-text {
-    flex: 2;
-    padding: 20px;
-  }
-  .image {
-    width: 20rem;
-    height: 30rem;
-    border-left: 33px solid #ccc;
-    border-bottom: 15px solid #ccc;
-    border-right: 15px solid #ccc;
-    margin-left: 135px;
+
+.about-text {
+  flex: 2;
+  padding: 20px;
+}
+
+.image {
+  width: 20rem;
+  height: auto; /* Remove fixed height */
+  max-width: 100%; /* Add max-width for responsiveness */
+  border-left: 33px solid #ccc;
+  border-bottom: 15px solid #ccc;
+  border-right: 15px solid #ccc;
+  margin-left: 2rem; /* Adjust margin as needed */
+  margin-right: 2rem; /* Adjust margin as needed */
 }
 
 @media (max-width: 768px) {
-  
-p {  
-  text-size-adjust: 94px;
-  padding-right: 0rem;
-}
   .about-container {
-    flex-direction: column; 
-    align-items: center; 
-    padding: 10px; 
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
   }
 
   .image-container {
-    padding: 0; 
-    margin-bottom: 10px; 
+    padding: 0;
+    margin-bottom: 10px;
   }
 
- .image {
+  .image {
     width: 100%;
     max-width: 226px;
     height: auto;
-    justify-content: center;
-    align-items: center;
-    margin-right: 22rem;
-}
-
-  .about-content {
-    width: 100%; 
-    padding: 10px; 
+    margin: 0 auto; /* Center the image */
+    border: none; /* Remove borders */
   }
 
   .abothed {
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
   }
 
   .about-text {
-    width: 100%; 
-    text-align: center; 
+    width: 100%;
+    text-align: center;
   }
 }

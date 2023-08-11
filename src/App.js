@@ -14,12 +14,13 @@ import Footer from './components/Footer';
 function App() {
   const { isDarkMode } = useTheme();
 
+
   return (
     <ThemeProvider>
       <div className={`App ${isDarkMode ? 'dark' : ''}`}>
         <NavBar />
-        <ProfileDetails id="about" />
-        <AboutSection />
+        <ProfileDetails />
+        <AboutSection id="about"  />
         <Skills id="work" />
         <Experience />
         <Card />
