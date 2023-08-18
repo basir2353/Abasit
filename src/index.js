@@ -1,17 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import { ThemeProvider } from './Context/themecontext';
-import reportWebVitals from './reportWebVitals';
+import App from './App'; // Your main App component
+import { ThemeProvider } from './Context/themecontext'; // Import your ThemeProvider
 
 ReactDOM.render(
-  <ThemeProvider>
-    <React.StrictMode>
+  <React.StrictMode>
+    <ThemeProvider> {/* Wrap your App with the ThemeProvider */}
       <App />
-    </React.StrictMode>
-  </ThemeProvider>,
+    </ThemeProvider>
+  </React.StrictMode>,
   document.getElementById('root')
 );
-
-reportWebVitals();

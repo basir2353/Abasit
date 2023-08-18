@@ -11,6 +11,11 @@ const NavBar = () => {
   const textColorClass = isDarkMode ? 'text-light' : 'text-dark';
   const iconColorClass = isDarkMode ? 'icon-dark' : 'icon-light';
   const iconSize = '20px';
+  if (isDarkMode) {
+    document.body.classList.add('dark-theme');
+  } else {
+    document.body.classList.remove('dark-theme');
+  }
 
   return (
     <Navbar className={`custom-navbar ${backgroundColorClass}`} variant="dark" expand="lg">
@@ -43,9 +48,10 @@ const NavBar = () => {
       </Navbar.Toggle>
       <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="mr-auto">
-          <ScrollLink to="about" smooth={true} duration={500} offset={-70} href='about'>
-            <Nav.Link className={textColorClass}>About</Nav.Link>
-          </ScrollLink>
+      <ScrollLink to="about" smooth={true} duration={500} offset={-70} href='/about'>
+  <Nav.Link className={textColorClass}>About</Nav.Link>
+</ScrollLink>
+
           <ScrollLink to="work" smooth={true} duration={500} offset={-70}>
             <Nav.Link className={textColorClass}>Work</Nav.Link>
           </ScrollLink>
